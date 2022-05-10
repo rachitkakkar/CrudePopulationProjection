@@ -3,6 +3,7 @@ Provides a "middle-of-the-road" projection for any population, which holds that 
 Formula: ```lastYearPop + (((birthRate - deathRate) * (lastYearPop / 1000)) + (netMigration * (lastYearPop / 1000))))```
 
 # Examples
+PS, These graphs are off by two years because I actually entered the current year as 2020 instead of 2022
 ![Japan Projected](example1.png "Example 1")
 ![Russia Projected](example2.png "Example 2")
 
