@@ -1,5 +1,5 @@
 # CrudePopulationProjection
-Provides a "middle-of-the-road" projection for any population, which holds that rates stay the same instead of increasing/decreasing
+Provides a "middle-of-the-road" projection for any population, which holds that rates stay the same instead of increasing/decreasing\
 Formula: ```lastYearPop + (((birthRate - deathRate) * (lastYearPop / 1000)) + (netMigration * (lastYearPop / 1000))))```
 
 # Examples
